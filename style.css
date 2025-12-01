@@ -227,3 +227,28 @@ footer p {
         font-size: 1.5rem;
     }
 }
+
+.imagens {
+    width: 40rem;               /* ajuste conforme o tamanho desejado */
+    height: auto;
+    border-radius: 8px;         /* opcional: cantos arredondados */
+}
+
+.imagens-personagem {
+    width: 30rem;               /* ajuste conforme o tamanho desejado */
+    height: auto;
+    border-radius: 8px;         /* opcional: cantos arredondados */
+}
+
+.section2 {
+    background-color: rgba(0, 0, 0, 0.60);
+    backdrop-filter: blur(4px);
+    text-align: center;
+    width: 30%;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
