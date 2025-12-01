@@ -237,6 +237,7 @@ footer p {
 .imagens-personagem {
     width: 30rem;               /* ajuste conforme o tamanho desejado */
     height: auto;
+    max-height: 330px;
     border-radius: 8px;         /* opcional: cantos arredondados */
 }
 
@@ -244,11 +245,18 @@ footer p {
     background-color: rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(4px);
     text-align: center;
-    width: 30%;
-    max-width: 500px;
+    width: 1000px;
+    max-width: 2000px;
     margin: 2rem auto;
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.personagem {
+    text-align: center;
 }
