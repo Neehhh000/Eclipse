@@ -12,7 +12,7 @@
         <h3>EPCLIPSE FINAL</h3>
 
         <nav class="menu">
-            <a href="index.php">Cadastro</a>
+            <a href="cadastro.php">Cadastro</a>
             <a href="dados.php">Personagens</a>
         </nav>
     </header>
@@ -60,24 +60,36 @@
 
 <h2>PERSONAGENS</h2>
 
-    <section class="section2">
+<section class="section2">
+    <div class="personagem">
         <h2>JUAN</h2>
-        <a href="personagens.php"><img class="imagens-personagem"  src="img/6.png" alt="imagem do personagem"></a>
-
+        <a href="personagens.php"><img class="imagens-personagem" src="img/6.png"></a>
+    </div>
+    <div class="personagem">
         <h2>ÍTALO</h2>
-        <a href="personagens.php"><img class="imagens-personagem"  src="img/7.png" alt="imagem do personagem"></a>
-
+        <a href="personagens.php"><img class="imagens-personagem" src="img/7.png"></a>
+    </div>
+    <div class="personagem">
         <h2>KAUÃ</h2>
-        <a href="personagens.php"><img class="imagens-personagem"  src="img/8.png" alt="imagem do personagem"></a>
-    </section>
+        <a href="personagens.php"><img class="imagens-personagem" src="img/8.png"></a>
+    </div>
+</section>
+
 <h2>SOBRE O JOGO</h2>
 
-Num mundo Eclipse Final, reinos esquecidos lutam pela última luz — aventure-se e descubra segredos que moldam o destino.
-          
-Eclipse Final é um jogo Roguelike aonde você escolhe seu próprio personagem. Explore o mundo enquanto se diverte encontrando diversos equipamentos e melhorias para seu personagem. 
-
-Erga se e se torne o heroi desse mundo. 
-
+    <section>
+        <h5>
+            Num mundo Eclipse Final, reinos esquecidos lutam pela última luz — aventure-se e descubra segredos que moldam o destino.
+        </h5>
+        <br>
+        <h5>
+            Eclipse Final é um jogo Roguelike aonde você escolhe seu próprio personagem. Explore o mundo enquanto se diverte encontrando diversos equipamentos e melhorias para seu personagem. 
+        </h5>
+        <br>
+        <h5>
+            Erga se e se torne o heroi desse mundo. 
+        </h5>
+    </section>
     <div>
       &copy; <?php echo date('Y'); ?> Eclipse Final
     </div>
