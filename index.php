@@ -60,12 +60,16 @@
 
 <h2>PERSONAGENS</h2>
 
-<a href="personagens.php"><img src="img/6.png" alt="imagem do personagem">JUAN</a>
+    <section class="section2">
+        <h2>JUAN</h2>
+        <a href="personagens.php"><img class="imagens-personagem"  src="img/6.png" alt="imagem do personagem"></a>
 
-Ítalo
+        <h2>ÍTALO</h2>
+        <a href="personagens.php"><img class="imagens-personagem"  src="img/7.png" alt="imagem do personagem"></a>
 
-Kauã
-
+        <h2>KAUÃ</h2>
+        <a href="personagens.php"><img class="imagens-personagem"  src="img/8.png" alt="imagem do personagem"></a>
+    </section>
 <h2>SOBRE O JOGO</h2>
 
 Num mundo Eclipse Final, reinos esquecidos lutam pela última luz — aventure-se e descubra segredos que moldam o destino.
